@@ -2,7 +2,11 @@
 var swiper = new Swiper(".product-content", {
   spaceBetween: 30,
   centeredSlides: true,
-
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
   autoplay: {
     delay: 10000,
     disableOnInteraction: false,
